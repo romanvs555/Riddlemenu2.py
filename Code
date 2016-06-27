@@ -32,17 +32,17 @@ menu= Menu({
                                                                                                 'Out, Alive':(),
                                                                                         }
                                                                         'Lions Cage': {
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                         }
                                                                         'Noose':{
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                 }
                                                                         }
-                                                          }
+                                                          
                                                         'Down Stairs':{
                                                                         'Choose One':(),
                                                                         'Electric Chair':{
@@ -51,15 +51,15 @@ menu= Menu({
                                                                                                 'Out, Alive':(),
                                                                                         }
                                                                         'Lions Cage': {
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                         }
                                                                         'Noose':{
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                                 'The Power Was':(),
+                                                                                                'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                 }
                                                                 }
@@ -73,12 +73,12 @@ menu= Menu({
                                                                                                 'Out, Alive':(),
                                                                                         }
                                                                         'Lions Cage':{
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                        }
                                                                         'Noose':{
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                         }
@@ -90,13 +90,13 @@ menu= Menu({
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Alive':(),
                                                                                         }
-                                                                                         'Lions Cage':{
+                                                                        'Lions Cage':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                         }
                                                                         'Noose':{
-                                                                                                 'Wrong':(),
+                                                                                                'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                 }
