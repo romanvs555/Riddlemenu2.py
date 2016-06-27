@@ -31,7 +31,7 @@ menu= Menu({
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Alive':(),
                                                                                         }
-                                                                        'Lions Cage': {
+                                                                        'Lions Cage':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
