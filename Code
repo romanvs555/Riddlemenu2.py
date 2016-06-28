@@ -30,18 +30,18 @@ menu= Menu({
                                                                                                 'Correct':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Alive':(),
-                                                                                        }
+                                                                                        },
                                                                         'Lions Cage':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                        }
+                                                                                        },
                                                                         'Noose':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                }
-                                                                        }
+                                                                                },
+                                                                        },
                                                           
                                                         'Down Stairs':{
                                                                         'Choose One':(),
@@ -49,21 +49,21 @@ menu= Menu({
                                                                                                 'Correct':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Alive':(),
-                                                                                        }
+                                                                                        },
                                                                         'Lions Cage': {
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                        }
+                                                                                        },
                                                                         'Noose':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                }
+                                                                                },
                                                                 }
-                                                        }
+                                                        },
                                                 'Blue':{
                                                         'Up Stairs':{
                                                                         'Choose One':(),
@@ -71,36 +71,36 @@ menu= Menu({
                                                                                                 'Correct':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Alive':(),
-                                                                                        }
+                                                                                        },
                                                                         'Lions Cage':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                       }
+                                                                                       },
                                                                         'Noose':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                        }
-                                                                                }
+                                                                                        },
+                                                                                },
                                                         'Down Stairs':{
                                                                         'Choose One':(),
                                                                         'Electric Chair':{
                                                                                                 'Correct':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Alive':(),
-                                                                                        }
+                                                                                        },
                                                                         'Lions Cage':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                        }
+                                                                                        },
                                                                         'Noose':{
                                                                                                 'Wrong':(),
                                                                                                 'The Power Was':(),
                                                                                                 'Out, Dead':(),
-                                                                                }
-                                                                        }
+                                                                                },
+                                                                        },
                                                                 }
 
                                                 }
@@ -117,8 +117,7 @@ def handle_up(pin):
     menu.up()
     joystick.repeat(joystick.UP, menu.up, REPEAT_DELAY, 0.9)
 
-@joystick.on(joystick.DOWN)
-def handle_down(pin):
+
 @joystick.on(joystick.DOWN)
 def handle_down(pin):
     menu.down()
